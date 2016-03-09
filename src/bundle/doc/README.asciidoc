@@ -218,7 +218,7 @@ Line three shows the translation to LaTeX.
 Combined Translators
 ~~~~~~~~~~~~~~~~~~~~
 
-The following example will tage a given string with character and formatting  and translate it to a number of targets.
+The following example will take a given string with character and formatting  and translate it to a number of targets.
 The first line has the actual string with combined elements.
 The following lines print out translations to AsciiDoc, HTML, and LaTeX.
 
