@@ -1,5 +1,5 @@
-v0.0.2 - ### - 2016-##-##
--------------------------------------
+v0.0.2 - maintenance - 2017-04-04
+---------------------------------
 * moved the package interfaces to skb-interfaces, added the new dependency
 
 
