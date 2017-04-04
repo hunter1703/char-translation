@@ -3,7 +3,7 @@ Character and HTML Element Translations
 Set of translators for characters, HTML Elements, and their combinations.
 :toc:
 
-Current release is https://search.maven.org/#artifactdetails|de.vandermeer|char-translation|0.0.1|jar[0.0.1].
+Current release is https://search.maven.org/#artifactdetails|de.vandermeer|char-translation|0.0.2|jar[0.0.2].
 All releases are on https://search.maven.org/#search|gav|1|g%3A%22de.vandermeer%22%20AND%20a%3A%char-translation%22[Maven Central].
 
 This blog post explains how to get UTF-8 support in the whole tool chain http://vdmeer-sven.blogspot.ie/2014/06/utf-8-support-w-java-and-console.html[blog on UTF-8].
@@ -218,7 +218,7 @@ Line three shows the translation to LaTeX.
 Combined Translators
 ~~~~~~~~~~~~~~~~~~~~
 
-The following example will tage a given string with character and formatting  and translate it to a number of targets.
+The following example will take a given string with character and formatting  and translate it to a number of targets.
 The first line has the actual string with combined elements.
 The following lines print out translations to AsciiDoc, HTML, and LaTeX.
 
