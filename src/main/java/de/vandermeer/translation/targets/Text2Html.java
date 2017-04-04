@@ -24,7 +24,7 @@ import de.vandermeer.skb.interfaces.translators.TargetTranslator;
  * Target translator for source Text and target HTML.
  *
  * @author     Sven van der Meer &lt;vdmeer.sven@mykolab.com&gt;
- * @version    v0.0.1 build 170404 (04-Apr-17) for Java 1.8
+ * @version    v0.0.2 build 170404 (04-Apr-17) for Java 1.8
  * @since      v0.0.2
  */
 public class Text2Html implements TargetTranslator {
