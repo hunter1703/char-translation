@@ -14,10 +14,10 @@
  */
 
 /**
- * HTML Element Translation - Translators for characters, for example from text encoded in UTF-8 with some HTML Elements to LaTeX.
+ * Targets for character translators.
  * 
  * @author     Sven van der Meer &lt;vdmeer.sven@mykolab.com&gt;
  * @version    v0.0.2 build 170404 (04-Apr-17) for Java 1.8
  * @since      v0.0.1
  */
-package de.vandermeer.translation.helements;
+package de.vandermeer.translation.targets;

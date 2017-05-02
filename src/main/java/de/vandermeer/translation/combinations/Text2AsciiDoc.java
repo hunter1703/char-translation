@@ -27,11 +27,6 @@ import de.vandermeer.skb.interfaces.translators.CombinedTranslator;
 public class Text2AsciiDoc implements CombinedTranslator {
 
 	@Override
-	public String translateCharacters(String input) {
-		return new de.vandermeer.translation.characters.Text2AsciiDoc().translateCharacters(input);
-	}
-
-	@Override
 	public String text2tmp(String input) {
 		return new de.vandermeer.translation.helements.Text2AsciiDoc().text2tmp(input);
 	}
@@ -47,6 +42,11 @@ public class Text2AsciiDoc implements CombinedTranslator {
 		ret = this.translateCharacters(ret);
 		ret = this.tmp2target(ret);
 		return ret;
+	}
+
+	@Override
+	public String translateCharacters(String input) {
+		return new de.vandermeer.translation.characters.Text2AsciiDoc().translateCharacters(input);
 	}
 
 	@Override

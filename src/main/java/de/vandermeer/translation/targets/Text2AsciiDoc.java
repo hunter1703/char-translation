@@ -35,13 +35,13 @@ public class Text2AsciiDoc implements TargetTranslator {
 	}
 
 	@Override
-	public HtmlElementTranslator getHtmlElementTanslator() {
-		return new de.vandermeer.translation.helements.Text2AsciiDoc();
+	public CombinedTranslator getCombinedTranslator() {
+		return new de.vandermeer.translation.combinations.Text2AsciiDoc();
 	}
 
 	@Override
-	public CombinedTranslator getCombinedTranslator() {
-		return new de.vandermeer.translation.combinations.Text2AsciiDoc();
+	public HtmlElementTranslator getHtmlElementTanslator() {
+		return new de.vandermeer.translation.helements.Text2AsciiDoc();
 	}
 
 }

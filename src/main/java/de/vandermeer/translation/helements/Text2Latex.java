@@ -29,17 +29,17 @@ import de.vandermeer.skb.interfaces.translators.HtmlElementTranslator;
 public class Text2Latex implements HtmlElementTranslator {
 
 	/** Array of HTML Element strings. */
-	protected String[] searchListHE = new String[]{
+	protected final String[] searchListHE = new String[]{
 		"</abbr>", "</b>", "</code>", "</i>", "</li>", "</ol>", "</sub>", "</sup>", "</ul>", "<abbr>", "<b>", "<br />", "<br/>", "<br>", "<code>", "<i>", "<li>", "<ol>", "<sub>", "<sup>", "<ul>"
 	};
 
 	/** Array of temporary replacements for HTML Element strings. */
-	protected String[] replacementListHE = new String[]{
+	protected final String[] replacementListHE = new String[]{
 		"(((/abbr)))", "(((/b)))", "(((/code)))", "(((/i)))", "(((/li)))", "(((/ol)))", "(((/sub)))", "(((/sup)))", "(((/ul)))", "(((abbr)))", "(((b)))", "(((br /)))", "(((br/)))", "(((br)))", "(((code)))", "(((i)))", "(((li)))", "(((ol)))", "(((sub)))", "(((sup)))", "(((ul)))"
 	};
 
 	/** Array of LaTeX replacements for temporary HTML Element strings. */
-	protected String[] latexListHE = new String[]{
+	protected final String[] latexListHE = new String[]{
 		"}", "}", "|", "}", "", "\\end{enumerate}", "}$", "}$", "\\end{itemize}", "\\ac{", "\\textbf{", "\\", "\\", "\\", "\\lstinline|", "\\textit{", "\\item", "\\begin{enumerate}", "$_{", "$^{", "\\begin{itemize}"
 	};
 

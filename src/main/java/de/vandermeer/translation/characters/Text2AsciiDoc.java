@@ -29,11 +29,11 @@ import de.vandermeer.skb.interfaces.translators.CharacterTranslator;
 public class Text2AsciiDoc implements CharacterTranslator {
 
 	/** Array of source strings. */
-	protected String[] sourceArray = new String[]{
+	protected final String[] sourceArray = new String[]{
 	};
 
 	/** Array of target strings. */
-	protected String[] targetArray = new String[]{
+	protected final String[] targetArray = new String[]{
 	};
 
 	@Override

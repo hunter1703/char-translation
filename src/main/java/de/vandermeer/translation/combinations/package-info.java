@@ -16,15 +16,6 @@
 /**
  * Combined Translation - Combination of character and HTML Element translations.
  * 
- * 
- * <br><h3>Features</h3>
- * 
- * 
- * <br><h3>Concepts and Realization</h3>
- * 
- * <br><h3>Standard usage</h3>
- * 
- * 
  * @author     Sven van der Meer &lt;vdmeer.sven@mykolab.com&gt;
  * @version    v0.0.2 build 170404 (04-Apr-17) for Java 1.8
  * @since      v0.0.1

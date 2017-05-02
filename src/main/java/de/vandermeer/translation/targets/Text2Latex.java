@@ -35,13 +35,13 @@ public class Text2Latex implements TargetTranslator {
 	}
 
 	@Override
-	public HtmlElementTranslator getHtmlElementTanslator() {
-		return new de.vandermeer.translation.helements.Text2Latex();
+	public CombinedTranslator getCombinedTranslator() {
+		return new de.vandermeer.translation.combinations.Text2Latex();
 	}
 
 	@Override
-	public CombinedTranslator getCombinedTranslator() {
-		return new de.vandermeer.translation.combinations.Text2Latex();
+	public HtmlElementTranslator getHtmlElementTanslator() {
+		return new de.vandermeer.translation.helements.Text2Latex();
 	}
 
 }

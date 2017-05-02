@@ -29,12 +29,12 @@ import de.vandermeer.skb.interfaces.translators.HtmlElementTranslator;
 public class Text2Html implements HtmlElementTranslator {
 
 	/** Array of HTML Element strings. */
-	protected String[] searchListHE = new String[]{
+	protected final String[] searchListHE = new String[]{
 		"</abbr>", "</b>", "</code>", "</i>", "</li>", "</ol>", "</sub>", "</sup>", "</ul>", "<abbr>", "<b>", "<br />", "<br/>", "<br>", "<code>", "<i>", "<li>", "<ol>", "<sub>", "<sup>", "<ul>"
 	};
 
 	/** Array of temporary replacements for HTML Element strings. */
-	protected String[] replacementListHE = new String[]{
+	protected final String[] replacementListHE = new String[]{
 		"(((/abbr)))", "(((/b)))", "(((/code)))", "(((/i)))", "(((/li)))", "(((/ol)))", "(((/sub)))", "(((/sup)))", "(((/ul)))", "(((abbr)))", "(((b)))", "(((br /)))", "(((br/)))", "(((br)))", "(((code)))", "(((i)))", "(((li)))", "(((ol)))", "(((sub)))", "(((sup)))", "(((ul)))"
 	};
 
