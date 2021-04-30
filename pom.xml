@@ -14,7 +14,7 @@
       -->
 	<groupId>de.vandermeer</groupId>
 	<artifactId>char-translation</artifactId>
-	<version>0.0.3</version>
+	<version>1.0.0</version>
 	<packaging>jar</packaging>
 
 	<!--
